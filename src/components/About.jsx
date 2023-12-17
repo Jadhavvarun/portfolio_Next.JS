@@ -16,9 +16,9 @@ const About = () => {
                 <div className="flex px-28 py-28">
                     <div className="w-1/3">
                         <h4 className="text-xl font-semibold">BIOGRAPHY</h4> <br />
-                        <p>Hi, I'm Varun Jadhav, a web developer and UI/UX designer with a passion for creating beautiful, functional, and user-centered digital experiences. With 4 years of experience in the field. I am always looking for new and innovative ways to bring my clients' visions to life.</p> <br />
-                        <p>I believe that design is about more than just making things look pretty – it's about solving problems and creating intuitive, enjoyable experiences for users.</p> <br />
-                        <p>Whether I'm working on a website, mobile app, or other digital product, I bring my commitment to design excellence and user-centered thinking to every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.</p>
+                        <p>Hi, I&apos;m Varun Jadhav, a web developer and UI/UX designer with a passion for creating beautiful, functional, and user-centered digital experiences. With 4 years of experience in the field. I am always looking for new and innovative ways to bring my clients&apos; visions to life.</p> <br />
+                        <p>I believe that design is about more than just making things look pretty – it&apos;s about solving problems and creating intuitive, enjoyable experiences for users.</p> <br />
+                        <p>Whether I&apos;m working on a website, mobile app, or other digital product, I bring my commitment to design excellence and user-centered thinking to every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.</p>
                     </div>
                     <div className="w-1/3 flex justify-center items-center ml-14">
                         <div className="h-[430px] w-[350px] bg-black border-white border-4 rounded-lg shadow-white shadow-xl">
