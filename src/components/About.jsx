@@ -79,6 +79,11 @@ const About = () => {
           text-align: center;
         }
       `}</style>
+      {/* Experience */}
+        <div>
+
+        </div>
+        {/* Education */}
         </div>
     )
 }
