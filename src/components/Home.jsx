@@ -21,10 +21,10 @@ const Home = () => {
                         />
                     </div>
                     <div className="md:w-1/2 flex flex-col justify-center px-6 py-12 md:py-0">
-                        <h2 className="text-4xl md:text-7xl font-bold text-center md:text-left mb-8">
+                        <h2 className="text-4xl md:text-7xl font-bold text-center md:text-left mb-8 text-white">
                             Turning Vision<br />Into Reality<br />With Code<br />And Design.
                         </h2>
-                        <p className="text-xl md:text-start mb-8">
+                        <p className="text-xl md:text-start mb-8 text-white">
                             As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects and articles, showcasing my expertise in React.js and web development.
                         </p>
                         <button onClick={openResume} className="bg-white px-6 py-3 text-xl text-black font-semibold hover:border-white hover:border-2 hover:bg-black hover:text-white flex items-center self-center md:self-start">
