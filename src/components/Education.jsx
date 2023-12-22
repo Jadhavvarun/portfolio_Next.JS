@@ -8,12 +8,12 @@ const EducationComponent = () => {
         <div className="p-4 md:p-6 bg-gray-900 rounded-lg">
           <h3 className="font-bold text-xl md:text-2xl text-white">Master of Computer Application</h3>
           <p className="text-md md:text-lg font-medium mb-2 text-gray-400">June 2021 - July 2023 | Sterling Institute of Management Studies.</p>
-          <p className="text-md md:text-lg text-white">Completed a master's project on deep learning, developing a new neural network architecture for natural language understanding.</p>
+          <p className="text-md md:text-lg text-white">Completed a master&apos;s project on deep learning, developing a new neural network architecture for natural language understanding.</p>
         </div>
         <div className="p-4 md:p-6 bg-gray-900 rounded-lg">
           <h3 className="font-bold text-xl md:text-2xl text-white">Bachelor of Commerce</h3>
           <p className="text-md md:text-lg font-medium mb-2 text-gray-400">June 2018 - July 2021 | Sydenham College of Commerce and Economics.</p>
-          <p className="text-md md:text-lg text-white">Completed a bachelor's degree in commerce.</p>
+          <p className="text-md md:text-lg text-white">Completed a bachelor&apos;s degree in commerce.</p>
         </div>
       </div>
     </div>
