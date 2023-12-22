@@ -2,7 +2,7 @@ import React from 'react';
 
 const ExperienceComponent = () => {
   return (
-    <div className="my-8 mx-96 px-32">
+    <div className="my-20 mx-96 px-32">
       <h2 className="text-7xl text-center font-bold mb-4">Experience</h2>
       <div className="flex flex-col space-y-8">
         <div className="p-6">
