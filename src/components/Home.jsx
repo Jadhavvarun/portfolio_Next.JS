@@ -55,7 +55,7 @@ const Home = () => {
             />
           </div>
           <div className="md:w-1/2 flex flex-col justify-center px-6 py-12 md:py-0">
-            <h2 className="text-4xl md:text-7xl font-bold text-center md:text-left mb-8 text-white">
+            <h2 className="text-4xl md:text-6xl font-bold text-center md:text-left mb-8 text-white">
               Turning Vision<br />Into Reality<br />With Code<br />And Design.
             </h2>
             <p className="text-xl md:text-start mb-8 text-white">
