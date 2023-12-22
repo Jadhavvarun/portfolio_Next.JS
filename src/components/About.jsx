@@ -17,9 +17,9 @@ const About = () => {
                     <div className="md:w-1/2">
                         <h4 className="text-xl font-semibold text-white">BIOGRAPHY</h4> <br />
                         <p className="text-white">
-                            Hi, I'm Varun Jadhav, a web developer and UI/UX designer with a passion for creating beautiful, functional,
+                            Hi, I&apos;m Varun Jadhav, a web developer and UI/UX designer with a passion for creating beautiful, functional,
                             and user-centered digital experiences. With 1 year of experience in the field. I am always looking for new
-                            and innovative ways to bring my clients visions to life.
+                            and innovative ways to bring my clients&apos; visions to life.
                         </p>
                         <br />
                         <p className="text-white">
