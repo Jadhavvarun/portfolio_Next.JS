@@ -20,7 +20,7 @@ const Navbar = () => {
           {!isMenuOpen ? (
             <CiMenuBurger
               onClick={toggleMenu}
-              className="block md:hidden text-white h-6 w-6"
+              className="block md:hidden text-white h-6 w-6 cursor-pointer"
             />
           ) : (
             <AiOutlineClose
@@ -30,7 +30,7 @@ const Navbar = () => {
           )}
 
           {/* Off-canvas Menu */}
-          <div className={`md:hidden fixed top-0 left-0 h-screen w-full bg-gray-900 bg-opacity-75 backdrop-blur-lg outline-none z-10 transition-transform duration-300 transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+          <div className={`md:hidden fixed top-0 left-0 h-screen w-full bg-gray-800 bg-opacity-75 backdrop-blur-lg outline-none z-10 transition-transform duration-300 transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
             <div className="flex flex-col items-center justify-center h-full">
               <Link href="/" passHref>
                 <h2 className="text-2xl cursor-pointer font-semibold text-white my-4">Home</h2>
@@ -52,7 +52,7 @@ const Navbar = () => {
                   <FaInstagram size={30} color="#E4405F" />
                 </a>
                 <a href="https://github.com/Jadhavvarun/" className="text-white cursor-pointer">
-                  <FaGithub size={30} color="#FFFFFF" />
+                  <FaGithub size={30} className="text-white" />
                 </a>
               </div>
             </div>
@@ -86,6 +86,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      <div className="bottom-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-400 to-blue-500"></div>
     </nav>
   );
 };

@@ -3,8 +3,8 @@ import React from 'react';
 const ExperienceComponent = () => {
   return (
     <div className="bg-black"> 
-    <div className="my-8 px-4 md:px-8 lg:px-16 xl:px-32">
-      <h2 className="text-4xl md:text-7xl font-bold mb-4 text-center text-white">Experience</h2>
+    <div className="px-4 md:px-8 lg:px-16 xl:px-32">
+      <h2 className="text-4xl md:text-7xl font-bold py-4 text-center text-white">Experience</h2>
       <div className="flex flex-col space-y-6 md:space-y-8">
         <div className="p-4 md:p-6">
           <h3 className="text-lg md:text-xl font-bold mb-2 text-white">Software Developer <br /> <span className="text-neon">@Unipolar Technologies Pvt. Ltd.</span></h3>
