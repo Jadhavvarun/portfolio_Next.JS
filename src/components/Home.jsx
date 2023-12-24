@@ -58,7 +58,7 @@ const Home = () => {
             <h2 className="text-4xl md:text-6xl font-semibold text-center md:text-left mb-8 text-white">
               Turning Vision<br />Into Reality<br />With Code<br />And Design.
             </h2>
-            <p className="text-xl md:text-start mb-8 text-white">
+            <p className="text-xl md:text-start text-center mb-8 text-white">
               As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
               Explore my latest projects and articles, showcasing my expertise in React.js and web development.
             </p>
@@ -71,15 +71,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="p-4 bg-white rounded-full h-28 w-28 z-10 sticky text-black text-xl text-center py-11 font-semibold bottom-0 left-8">
-          Hire Me
-        </div>
       </div>
-      <footer className="bg-black border-t-2 border-white text-white py-4 text-center">
-        <div className="container mx-auto">
-          <p>2023 © All Rights Reserved.</p>
-        </div>
-      </footer>
     </div>
   );
 };

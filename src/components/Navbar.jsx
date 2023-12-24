@@ -10,28 +10,30 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+    document.body.classList.remove("overflow-hidden");
   };
 
-  const handleCloseMenue = () => {
+  const closeMobileMenue = () => {
     setIsMenuOpen(false);
+    document.body.classList.remove("overflow-hidden");
   }
 
   return (
     <nav>
       <div className="h-20 bg-black relative">
-  <div className="flex justify-between items-center py-6 px-6 md:px-32">
-    {/* Mobile Menu Button */}
-    {!isMenuOpen ? (
-      <CiMenuBurger
-        onClick={toggleMenu}
-        className="block md:hidden text-white h-6 w-6"
-      />
-    ) : (
-      <AiOutlineClose
-        onClick={toggleMenu}
-        className="block md:hidden text-white h-6 w-6 cursor-pointer"
-      />
-    )}
+        <div className="flex justify-between items-center py-6 px-6 md:px-32">
+          {/* Mobile Menu Button */}
+          {!isMenuOpen ? (
+            <CiMenuBurger
+              onClick={toggleMenu}
+              className="block md:hidden text-white h-6 w-6 ml-60"
+            />
+          ) : (
+            <AiOutlineClose
+              onClick={toggleMenu}
+              className="block md:hidden text-white h-6 w-6 cursor-pointer"
+            />
+          )}
 
           {/* Off-canvas Menu */}
           <div className={`md:hidden fixed top-0 left-0 h-screen w-full bg-gray-900 bg-opacity-75 backdrop-blur-lg outline-none z-50 transition-transform duration-300 transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>            {/* Close Button */}
@@ -40,7 +42,7 @@ const Navbar = () => {
               className="absolute top-6 right-6 text-white text-3xl focus:outline-none"
             >
               <AiOutlineClose />
-            </button>            
+            </button>
             <div className="flex flex-col items-center justify-center h-full">
               <Link href="/" passHref>
                 <h2 className="text-2xl cursor-pointer font-semibold text-white my-4">Home</h2>

@@ -1,11 +1,5 @@
-'use client'
-import Image from 'next/image';
-
-const skills = ['JavaScript', 'React', 'CSS', 'HTML', 'Node.js', 'Next.js', 'Tailwind CSS', 'Express.js', 'SQL', 'Figma'];
 
 const About = () => {
-    const radius = 200; // Radius of the circular pattern
-    const angleIncrement = (2 * Math.PI) / skills.length; // Angle between each skill
 
     return (
         <div>
@@ -40,51 +34,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-black h-screen py-12 md:py-24">
-                <h2 className="text-4xl md:text-7xl font-bold text-center text-white mb-20">Skills</h2>
-                <div className="universe justify-center items-center flex">
-                    {skills.map((skill, index) => {
-                        const angle = index * angleIncrement;
-                        const x = radius * Math.cos(angle);
-                        const y = radius * Math.sin(angle);
-
-
-                        return (
-                            <div
-                                className="skill mb-4 md:mb-8"
-                                key={index}
-                                style={{ transform: `translate(${x}px, ${y}px)` }} // Convert this to a CSS class
-                            >
-                                {skill}
-                            </div>
-                        );
-                    })}
-                </div>
-            </div>
-            <style jsx>{`
-  .universe {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
-
-  .skill {
-    background-color: #ffffff;
-    color: #000000;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    cursor: pointer;
-    transition: transform 0.3s ease; 
-  }
-`}</style>
         </div>
     );
 };
