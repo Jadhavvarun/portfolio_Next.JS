@@ -41,6 +41,9 @@ const Navbar = () => {
               <Link href="/projects" passHref>
                 <h2 className="text-2xl cursor-pointer font-semibold text-white my-4">Projects</h2>
               </Link>
+              <Link href="/contact" passHref>
+                <h2 className="text-2xl cursor-pointer font-semibold text-white my-4">Contact</h2>
+              </Link>
               <div className="flex gap-x-4 mt-6">
                 <a href="https://linkedin.com/in/varun-jadhav-620814152" className="text-white cursor-pointer">
                   <FaLinkedin size={30} color="#1877f2" />
@@ -59,7 +62,7 @@ const Navbar = () => {
           </div>
 
           {/* Regular Menu */}
-          <div className="hidden md:flex gap-x-20">
+          <div className="hidden md:flex gap-x-12">
             <Link href="/" passHref>
               <h2 className="text-2xl cursor-pointer font-semibold text-white">Home</h2>
             </Link>
@@ -68,6 +71,9 @@ const Navbar = () => {
             </Link>
             <Link href="/projects" passHref>
               <h2 className="text-2xl cursor-pointer font-semibold text-white">Projects</h2>
+            </Link>
+            <Link href="/contact" passHref>
+              <h2 className="text-2xl cursor-pointer font-semibold text-white">Contact</h2>
             </Link>
           </div>
           <div className="hidden md:flex gap-x-10">

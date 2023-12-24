@@ -56,10 +56,10 @@ const Home = () => {
           </div>
           <div className="md:w-1/2 flex flex-col justify-center px-6 py-12 md:py-0">
             <h2 className="text-4xl md:text-6xl font-semibold text-center md:text-left mb-8 text-white">
-              Turning Vision<br />Into Reality<br />With Code<br />And Design.
+              Ideas Transform into Code.
             </h2>
             <p className="text-xl md:text-start text-center mb-8 text-white">
-              As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
+              As a skilled Software developer, I am dedicated to turning ideas into innovative web applications.
               Explore my latest projects and articles, showcasing my expertise in React.js and web development.
             </p>
             <button
