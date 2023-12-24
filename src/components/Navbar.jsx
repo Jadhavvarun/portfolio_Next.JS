@@ -18,7 +18,7 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <CiMenuBurger 
             onClick={toggleMenu}
-            className="block md:hidden"
+            className="block md:hidden text-white"
             />
 
           {/* Off-canvas Menu */}
