@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div>
             <div className="bg-black">
-                <div className="text-center mt-20 md:mt-28">
+                <div className="text-center py-20 md:mt-28">
                     <h2 className="text-4xl md:text-8xl font-bold text-white">Passion Fuels Purpose!</h2>
                 </div>
                 <div className="flex flex-col md:flex-row px-6 md:px-28 py-12 md:py-28">
