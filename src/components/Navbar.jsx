@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { CiMenuBurger } from "react-icons/ci";
+import { AiOutlineClose } from "react-icons/ai";
 import { FaLinkedin, FaTwitter, FaInstagram, FaGithub } from 'react-icons/fa';
 
 const Navbar = () => {
@@ -11,18 +12,35 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleCloseMenue = () => {
+    setIsMenuOpen(false);
+  }
+
   return (
     <nav>
-      <div className="h-20 bg-black">
-        <div className="flex justify-between items-center py-6 px-6 md:px-32">
-          {/* Mobile Menu Button */}
-          <CiMenuBurger 
-            onClick={toggleMenu}
-            className="block md:hidden text-white h-6 w-6"
-            />
+      <div className="h-20 bg-black relative">
+  <div className="flex justify-between items-center py-6 px-6 md:px-32">
+    {/* Mobile Menu Button */}
+    {!isMenuOpen ? (
+      <CiMenuBurger
+        onClick={toggleMenu}
+        className="block md:hidden text-white h-6 w-6"
+      />
+    ) : (
+      <AiOutlineClose
+        onClick={toggleMenu}
+        className="block md:hidden text-white h-6 w-6 cursor-pointer"
+      />
+    )}
 
           {/* Off-canvas Menu */}
-          <div className={`md:hidden fixed top-0 left-0 h-screen w-full bg-gray-900 outline-none z-50 transition-transform duration-300 transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+          <div className={`md:hidden fixed top-0 left-0 h-screen w-full bg-gray-900 bg-opacity-75 backdrop-blur-lg outline-none z-50 transition-transform duration-300 transform ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>            {/* Close Button */}
+            <button
+              onClick={toggleMenu}
+              className="absolute top-6 right-6 text-white text-3xl focus:outline-none"
+            >
+              <AiOutlineClose />
+            </button>            
             <div className="flex flex-col items-center justify-center h-full">
               <Link href="/" passHref>
                 <h2 className="text-2xl cursor-pointer font-semibold text-white my-4">Home</h2>
