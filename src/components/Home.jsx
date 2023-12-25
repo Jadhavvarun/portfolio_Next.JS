@@ -8,41 +8,27 @@ const Home = () => {
     window.open('/Varun-Resume_1223.pdf', '_blank');
   };
 
-  useEffect(() => {
-    const setFooterPosition = () => {
-      const footer = document.querySelector('footer');
-      const body = document.body;
-      const html = document.documentElement;
-
-      const height = Math.max(
-        body.scrollHeight,
-        body.offsetHeight,
-        html.clientHeight,
-        html.scrollHeight,
-        html.offsetHeight
-      );
-
-      const windowHeight = window.innerHeight;
-      const footerHeight = footer.offsetHeight;
-
-      if (height < windowHeight) {
-        footer.style.position = 'absolute';
-        footer.style.bottom = '0';
-      } else {
-        footer.style.position = 'static';
-      }
-    };
-
-    setFooterPosition();
-    window.addEventListener('resize', setFooterPosition);
-
-    return () => {
-      window.removeEventListener('resize', setFooterPosition);
-    };
-  }, []);
-
   return (
     <div>
+      <div className='bg-black h-auto px-14'>
+        <div className='flex flex-col md:flex-row md:mt-28'>
+          <div className='w-full md:w-1/2 ml-0 md:ml-40 py-14'>
+            <h2 className='text-white font-bold text-4xl mb-8'>Hello There ! <br /> <br /> Varun Jadhav Here.....</h2>
+            <p className="text-white">Software Developer</p>
+          </div>
+          <div className='w-full md:w-1/2 mt-8 md:mt-0 ml-10 md:ml-96'>
+            <Image
+              src="/hie.webp"
+              alt="programmer"
+              width={200}
+              height={500}
+              priority
+            />
+          </div>
+        </div>
+      </div>
+
+
       <div className="min-h-screen bg-black flex flex-col relative">
         <div className="flex-1 flex flex-col md:flex-row">
           <div className="md:w-1/2 flex justify-center items-center mt-8">
