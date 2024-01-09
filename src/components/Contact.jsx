@@ -62,7 +62,7 @@ const ContactMe = () => {
                         <FaInstagram size={30} color="#E4405F" />
                     </a>
                     <a href="https://github.com/Jadhavvarun/" className="text-black cursor-pointer">
-                        <FaGithub size={30} color="#FFFFFF" />
+                        <FaGithub size={30} color="#000000" />
                     </a>
                 </div>
             </div>
