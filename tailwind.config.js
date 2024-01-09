@@ -14,10 +14,9 @@ module.exports = {
       },
       colors: {
         'neon': '#04D9FF',
-        'white-1': '#EDF2F4',
+        'white-1': '#F5E6E8',
         'blue-1': '#8D99AE',
-        'blue-2': '#2B2D42',
-        'blue-3': '#4C5075',
+        'blue-2': '#192A51',
         'light-blue': '#CCE6F4'
       }
     },

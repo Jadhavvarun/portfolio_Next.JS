@@ -1,7 +1,7 @@
 const Skills = () => {
     return (
-        <div className="h-auto bg-blue-3 py-12 px-8 md:px-20">
-      <h2 className="text-4xl md:text-7xl font-bold mb-6 text-white-1 text-center">Skills</h2>
+        <div className="h-auto bg-white-1 py-12 px-8 md:px-20">
+      <h2 className="text-4xl md:text-7xl font-bold mb-6 text-blue-2 text-center">Skills</h2>
       <div className="flex flex-wrap justify-center gap-6">
                 <div className="border rounded-md p-2">
                     <a href="https://angular.io" target="_blank" rel="noreferrer">
