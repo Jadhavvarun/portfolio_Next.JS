@@ -3,9 +3,9 @@ const About = () => {
 
     return (
         <div>
-            <div className="bg-black">
-                <div className="text-center py-20 md:mt-28">
-                    <h2 className="text-4xl md:text-8xl font-bold text-white">Passion Fuels Purpose!</h2>
+            <div className="bg-blue-2">
+                <div className="text-center py-20 ">
+                    <h2 className="text-4xl md:text-6xl font-bold text-white">Passion Fuels Purpose!</h2>
                 </div>
                 <div className="flex flex-col md:flex-row px-6 md:px-28 py-12 md:py-28">
                     <div className="md:w-1/2">
@@ -28,7 +28,7 @@ const About = () => {
                         </p>
                     </div>
                     <div className="md:w-1/2 flex justify-center items-center mt-8 md:mt-0">
-                        <div className="h-[250px] md:h-[430px] w-[250px] md:w-[350px] bg-black border-white border-4 rounded-lg shadow-white shadow-xl">
+                        <div className="h-[250px] md:h-[430px] w-[250px] md:w-[350px] bg-blue-1 border-white border-4 rounded-lg shadow-white shadow-xl">
 
                         </div>
                     </div>

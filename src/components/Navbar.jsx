@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="h-20 bg-black relative">
+      <div className="h-20 bg-blue-2 relative">
         <div className="flex justify-between items-center py-6 px-6 md:px-32">
           {/* Mobile Menu Button */}
           {!isMenuOpen ? (

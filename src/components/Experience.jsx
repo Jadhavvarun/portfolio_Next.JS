@@ -2,7 +2,7 @@ import React from 'react';
 
 const ExperienceComponent = () => {
   return (
-    <div className="bg-black"> 
+    <div className="bg-blue-2"> 
     <div className="px-4 md:px-8 lg:px-16 xl:px-32">
       <h2 className="text-4xl md:text-7xl font-bold py-4 text-center text-white">Experience</h2>
       <div className="flex flex-col space-y-6 md:space-y-8">

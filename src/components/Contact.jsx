@@ -10,11 +10,11 @@ const handleSendEmail = () => {
 
 const ContactMe = () => {
     return (
-        <div className="bg-black min-h-screen flex flex-col items-center justify-center">
+        <div className="bg-blue-2 min-h-screen flex flex-col items-center justify-center">
             <div className="max-w-4xl mx-auto flex flex-col md:flex-row md:items-start">
                 {/* Left column with profile image */}
                 <div className="md:w-1/2 mb-8 md:mb-0 sm:mr-12 mt-8">
-                    <img src="https://img.freepik.com/premium-vector/boy-working-desk-flat-illustration_671039-836.jpg" alt="Profile" className="w-full h-auto" />
+                    <img src="/_contact_me.png" alt="Profile" className="w-full h-auto" />
                 </div>
                 
                 {/* Right column with Contact Me form and social links */}
