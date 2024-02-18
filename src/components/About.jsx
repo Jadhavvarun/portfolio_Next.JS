@@ -7,7 +7,7 @@ const About = () => {
                 <div className="text-center py-20 ">
                     <h2 className="text-4xl md:text-6xl font-bold text-white-1">Passion Fuels Purpose!</h2>
                 </div>
-                <div className="flex flex-col md:flex-row px-6 md:px-28 py-12 md:py-28">
+                <div className="flex flex-col md:flex-row px-6 md:px-28 py-12 md:py-14">
                     <div className="md:w-1/2">
                         <h4 className="text-xl font-semibold text-white-1">BIOGRAPHY</h4> <br />
                         <p className="text-white-1">
@@ -28,8 +28,8 @@ const About = () => {
                         </p>
                     </div>
                     <div className="md:w-1/2 flex justify-center items-center mt-8 md:mt-0">
-                        <div className="h-[250px] md:h-[430px] w-[250px] md:w-[350px] bg-blue-1 border-white border-4 rounded-lg shadow-white shadow-xl">
-
+                        <div className="h-[250px] md:h-[430px] w-[250px] md:w-[350px] bg-blue-1 border-neon border-4     rounded-lg shadow-xl">
+                            <img src="/pic.jpg" alt="photo" className="h-full"/>
                         </div>
                     </div>
                 </div>

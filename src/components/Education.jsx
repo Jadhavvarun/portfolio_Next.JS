@@ -4,7 +4,7 @@ const EducationComponent = () => {
   return (
     <div className="bg-blue-2">
     <div className="px-4 md:px-8 lg:px-16 xl:px-32">
-      <h2 className="text-4xl md:text-7xl font-bold py-4 text-center text-white">Education</h2>
+      <h2 className="text-4xl md:text-6xl font-bold py-4 text-center text-white">Education</h2>
       <div className="flex flex-col space-y-6 md:space-y-8">
         <div className="p-4 md:p-6">
           <h3 className="font-bold text-xl md:text-2xl text-white">Master of Computer Application</h3>

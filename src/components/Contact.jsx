@@ -13,39 +13,51 @@ const ContactMe = () => {
         <div className="bg-white-1 min-h-screen flex flex-col items-center justify-center">
             <div className="max-w-4xl mx-auto flex flex-col md:flex-row md:items-start">
                 {/* Left column with profile image */}
-                <div className="md:w-1/2 mb-8 md:mb-0 sm:mr-12 mt-8">
-                    <img src="https://img.freepik.com/premium-vector/boy-working-desk-flat-illustration_671039-836.jpg" alt="Profile" className="w-full h-auto" />
+                <div className="md:w-1/2 mb-8 md:mb-0 sm:mr-12 mt-36">
+                    <img src="https://images.squarespace-cdn.com/content/v1/56012adce4b0cf12162d2a86/1472569189356-KGD5TAI2VUG58XPLP4TH/ke17ZwdGBToddI8pDm48kJQJVsEtCLppChK_Q1hK7HxZw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVH_MrANN8KR8T9Qur-Sqz4nJ4Djo7RP9NLGu1GdMqYHR2bSd6kfRtgWHgNMDgGnmDY/image-asset.gif" alt="Profile" className="w-full h-full" />
                 </div>
-                
+
                 {/* Right column with Contact Me form and social links */}
-                <div className="md:w-1/2 mx-auto p-8 rounded-lg shadow-2xl bg-white text-black mb-8 mt-8">
+                <div className="w-full mx-auto p-6 rounded-lg shadow-lg bg-gray-50 text-gray-800 mb-8 mt-8">
                     <h2 className="text-3xl font-bold mb-6 text-center">Contact Me</h2>
-                    <form className="flex flex-col space-y-4">
-                        {/* Your form inputs */}
-                        <input
-                            type="text"
-                            placeholder="Your Name"
-                            className="p-3 rounded-md border-gray-300 focus:outline-none focus:border-indigo-500"
-                        />
-                        <input
-                            type="email"
-                            placeholder="Your Email"
-                            className="p-3 rounded-md border-gray-300 focus:outline-none focus:border-indigo-500"
-                        />
-                        <textarea
-                            placeholder="Your Message"
-                            rows="4"
-                            className="p-3 rounded-md border-gray-300 focus:outline-none focus:border-indigo-500"
-                        ></textarea>
+                    <form className="space-y-4">
+                        <div>
+                            <label htmlFor="name" className="block font-medium">Your Name</label>
+                            <input
+                                id="name"
+                                type="text"
+                                placeholder="Enter your name"
+                                className="w-full px-4 py-2 rounded-md border-gray-300 focus:outline-none focus:border-indigo-500"
+                            />
+                        </div>
+                        <div>
+                            <label htmlFor="email" className="block font-medium">Your Email</label>
+                            <input
+                                id="email"
+                                type="email"
+                                placeholder="Enter your email"
+                                className="w-full px-4 py-2 rounded-md border-gray-300 focus:outline-none focus:border-indigo-500"
+                            />
+                        </div>
+                        <div>
+                            <label htmlFor="message" className="block font-medium">Your Message</label>
+                            <textarea
+                                id="message"
+                                placeholder="Enter your message"
+                                rows="4"
+                                className="w-full px-4 py-2 rounded-md border-gray-300 focus:outline-none focus:border-indigo-500"
+                            ></textarea>
+                        </div>
                         <button
                             type="button"
                             onClick={handleSendEmail}
-                            className="bg-indigo-500 text-white py-3 rounded-md flex items-center justify-center hover:bg-indigo-600 transition duration-300 ease-in-out text-center"
+                            className="w-full bg-gray-700 text-white py-3 rounded-md flex items-center justify-center hover:bg-blue-2 transition duration-300 ease-in-out"
                         >
                             Send <RiSendPlaneFill className="ml-2" />
                         </button>
                     </form>
                 </div>
+
             </div>
 
             {/* Connect with Me section */}

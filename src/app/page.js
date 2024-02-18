@@ -1,14 +1,16 @@
 import Home from "@/components/Home";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { global } from "styled-jsx/css";
 
-const page = () => {
+const Page = () => {
   return (
-    <div>
+    <div className={global.container}>
       <Navbar />
       <Home />
       <Footer />
     </div>
-  )
-}
-export default page;
+  );
+};
+
+export default Page;

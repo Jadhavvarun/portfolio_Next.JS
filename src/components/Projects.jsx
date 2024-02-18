@@ -2,10 +2,13 @@ import { FaGithub } from 'react-icons/fa';
 
 const Projects = () => {
     return (
-        <div className="bg-white-1 min-h-screen py-10 sm:py-20 md:py-32 px-4 sm:px-10 md:px-20 lg:px-32">
-            <h2 className="text-blue-2 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-center">
-                Innovation Surpasses Understanding!
-            </h2> <br /> <br /> <br />
+        <div className="bg-white-1 min-h-screen py-10 sm:py-20 md:py-24 px-4 sm:px-10 md:px-20 lg:px-32">
+            <div className="flex justify-center items-center">
+                <h2 className="text-blue-2 text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-bold text-center">
+                    Innovation Surpasses Understanding!
+                </h2>
+            </div>
+            <br /> <br />
             <h2 className="text-blue-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center">
                 My Projects
             </h2>
@@ -24,10 +27,10 @@ const Projects = () => {
                         </p>
                     </div>
                     <div>
-                            <a href="https://varuns-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="bg-blue-2 text-white-1 rounded-full px-4 py-2 text-sm font-semibold flex items-center justify-center hover:bg-blue-1 focus:bg-gray-300 transition duration-300 ease-in-out">
-                                <FaGithub className="mr-2" /> Visit Project
-                            </a>
-                        </div>
+                        <a href="https://varuns-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer" className="bg-blue-2 text-white-1 rounded-full px-4 py-2 text-sm font-semibold flex items-center justify-center hover:bg-blue-1 focus:bg-gray-300 transition duration-300 ease-in-out">
+                            <FaGithub className="mr-2" /> Visit Project
+                        </a>
+                    </div>
                 </div>
 
                 {/* Add more similar card components for other projects */}

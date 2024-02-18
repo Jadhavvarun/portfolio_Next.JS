@@ -46,16 +46,16 @@ const Navbar = () => {
               </Link>
               <div className="flex gap-x-4 mt-6">
                 <a href="https://linkedin.com/in/varun-jadhav-620814152" className="text-white cursor-pointer">
-                  <FaLinkedin size={30} color="#1877f2" />
+                  <FaLinkedin size={30} color="#FFFFFF" />
                 </a>
                 <a href="https://twitter.com/varun_jadhav67" className="text-white cursor-pointer">
-                  <FaTwitter size={30} color="#1DA1F2" />
+                  <FaTwitter size={30} color="#FFFFFF" />
                 </a>
                 <a href="#" className="text-white cursor-pointer">
-                  <FaInstagram size={30} color="#E4405F" />
+                  <FaInstagram size={30} color="#FFFFFF" />
                 </a>
                 <a href="https://github.com/Jadhavvarun/" className="text-white cursor-pointer">
-                  <FaGithub size={30} className="text-white" />
+                  <FaGithub size={30} color="#FFFFFF" />
                 </a>
               </div>
             </div>
@@ -64,27 +64,27 @@ const Navbar = () => {
           {/* Regular Menu */}
           <div className="hidden md:flex gap-x-12">
             <Link href="/" passHref>
-              <h2 className="text-2xl cursor-pointer font-semibold text-white">Home</h2>
+              <h2 className="text-xl cursor-pointer font-semibold text-white">Home</h2>
             </Link>
             <Link href="/about" passHref>
-              <h2 className="text-2xl cursor-pointer font-semibold text-white">About</h2>
+              <h2 className="text-xl cursor-pointer font-semibold text-white">About</h2>
             </Link>
             <Link href="/projects" passHref>
-              <h2 className="text-2xl cursor-pointer font-semibold text-white">Projects</h2>
+              <h2 className="text-xl cursor-pointer font-semibold text-white">Projects</h2>
             </Link>
             <Link href="/contact" passHref>
-              <h2 className="text-2xl cursor-pointer font-semibold text-white">Contact</h2>
+              <h2 className="text-xl cursor-pointer font-semibold text-white">Contact</h2>
             </Link>
           </div>
           <div className="hidden md:flex gap-x-10">
             <a href="https://linkedin.com/in/varun-jadhav-620814152" className="text-black cursor-pointer">
-              <FaLinkedin size={30} color="#1877f2" />
+              <FaLinkedin size={30} color="#FFFFFF" />
             </a>
             <a href="https://twitter.com/varun_jadhav67" className="text-black cursor-pointer">
-              <FaTwitter size={30} color="#1DA1F2" />
+              <FaTwitter size={30} color="#FFFFFF" />
             </a>
             <a href="#" className="text-black cursor-pointer">
-              <FaInstagram size={30} color="#E4405F" />
+              <FaInstagram size={30} color="#FFFFFF" />
             </a>
             <a href="https://github.com/Jadhavvarun/" className="text-black cursor-pointer">
               <FaGithub size={30} color="#FFFFFF" />

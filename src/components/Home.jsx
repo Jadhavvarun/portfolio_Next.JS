@@ -21,40 +21,6 @@ const Home = () => {
 
   return (
     <div>
-      {/* First Section */}
-      <div className='bg-white-1 h-auto px-14'>
-        <div className='flex flex-col md:flex-row'>
-          {/* <div className='w-full md:w-1/2 ml-0 md:ml-40 py-14'>
-            <h2 className='text-white font-bold text-4xl mb-8 animate__animated animate__fadeIn'>
-              {textVariants.map((text, index) => (
-                <span
-                  key={index}
-                  className={`${
-                    index === textIndex ? 'opacity-100' : 'opacity-0'
-                  } transition-opacity duration-1000`}
-                >
-                  {text}
-                </span>
-              ))}
-            </h2>
-            <p className="text-white animate__animated animate__fadeInUp">
-              Software Developer
-            </p>
-          </div>
-          <div className='w-full md:w-1/2 mt-8 md:mt-0 ml-10 md:ml-96'>
-            <Image
-              src="/hie.webp"
-              alt="programmer"
-              width={200}
-              height={500}
-              priority
-              className="animate__animated animate__fadeInRight"
-            />
-          </div> */}
-        </div>
-      </div>
-
-      {/* Second Section */}
       <div className="min-h-screen bg-white-1 flex flex-col relative">
         <div className="flex-1 flex flex-col md:flex-row">
           <div className="md:w-1/2 flex justify-center items-center mt-8">
@@ -64,20 +30,20 @@ const Home = () => {
               width={450}
               height={500}
               priority
-              className="animate__animated animate__fadeInLeft"
+              className=""
             />
           </div>
           <div className="md:w-1/2 flex flex-col justify-center px-6 py-12 md:py-0">
-            <h2 className="text-4xl md:text-6xl font-semibold text-center md:text-left mb-8 text-blue-2 animate__animated animate__fadeIn">
+            <h2 className="text-4xl md:text-4xl font-semibold text-center md:text-left mb-8 text-blue-2">
               Ideas Transform into Code.
             </h2>
-            <p className="text-xl md:text-start text-center mb-8 text-blue-2 animate__animated animate__fadeInUp">
+            <p className="text-xl md:text-start text-center mb-8 text-blue-2">
               As a skilled Software developer, I am dedicated to turning ideas into innovative web applications.
               Explore my latest projects and articles, showcasing my expertise in React.js and web development.
             </p>
             <button
               onClick={openResume}
-              className="bg-white px-6 py-3 text-xl text-black font-semibold hover:border-white hover:border-2 hover:bg-black hover:text-white flex items-center self-center md:self-start animate__animated animate__fadeInUp"
+              className="bg-white px-6 py-2 text-xl text-black font-semibold border-2 border-black flex items-center self-center md:self-start"
             >
               <span>Resume</span>
               <MdArrowOutward className="h-6 w-6 ml-2" />
