@@ -44,24 +44,3 @@ body {
   background: #555;
 }
 
-.neonborder {
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  right: -4px;
-  bottom: -4px;
-  border: 4px solid transparent;
-  border-radius: 12px;
-  pointer-events: none;
-  z-index: 1;
-  animation: neon-animation 1.5s linear infinite alternate;
-}
-
-@keyframes neon-animation {
-  0% {
-    box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 70px #ff00ff, 0 0 80px #ff00ff, 0 0 100px #ff00ff, 0 0 150px #ff00ff;
-  }
-  100% {
-    box-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff, 0 0 20px #00ffff, 0 0 35px #00ffff, 0 0 40px #00ffff, 0 0 50px #00ffff, 0 0 75px #00ffff;
-  }
-}
