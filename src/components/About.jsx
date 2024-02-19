@@ -28,8 +28,8 @@ const About = () => {
                         </p>
                     </div>
                     <div className="md:w-1/2 flex justify-center items-center mt-8 md:mt-0">
-                        <div className="h-[250px] md:h-[430px] w-[250px] md:w-[350px] bg-blue-1 border-neon border-4     rounded-lg shadow-xl">
-                            <img src="/pic.jpg" alt="photo" className="h-full"/>
+                        <div className="h-[250px] md:h-[430px] w-[200px] md:w-[350px] bg-blue-1 border-4 drop-shadow">
+                            <img src="/varun-photo.jpg" alt="photo" className="h-full"/>
                         </div>
                     </div>
                 </div>
